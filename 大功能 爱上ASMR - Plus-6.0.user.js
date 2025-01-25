@@ -541,9 +541,9 @@
             // 悬浮按钮使用移动设备侧栏
             $('<div class="cban"><i></i></div>').prependTo('body')
                 .on('click', toggleActiveClass);
-            签到('.headitemss .dt_user > div > ul > li:nth-child(4)')
+            
         }else {
-            签到('.responsive .dt_user > div > ul > li:nth-child(4)')
+            
             mobileMain();
         }
         const $sidemenu = $('.mobile-nav > .sidemenu:last');
