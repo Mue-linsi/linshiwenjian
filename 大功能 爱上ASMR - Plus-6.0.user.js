@@ -446,13 +446,6 @@
     function main() {
       // 引入
         // 通知功能
-        let sw2css = document.createElement('link');
-        sw2css.rel = 'stylesheet';
-        sw2css.href = 'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/limonte-sweetalert2/10.15.2/sweetalert2.min.css?ver=6.1.7';
-        document.head.appendChild(sw2css);
-        let sw2js = document.createElement('script');
-        sw2js.src = 'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/limonte-sweetalert2/10.15.2/sweetalert2.min.js?ver=9.17.0';
-        document.head.appendChild(sw2js);
       // 左侧栏
         // 默认打开周热门
         $('#menu-item-22769 > a').attr('href', '/rmen?timeframe=week');
